@@ -36,14 +36,20 @@ body {
     list-style-type: none;
 }
 
-.header div ul li {
+.header div ul li{
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 a {
     color: #ffffff;
     text-decoration: none;
+}
+.header div ul li :hover{
+    color: red;
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 p {
